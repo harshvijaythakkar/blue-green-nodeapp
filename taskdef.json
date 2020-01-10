@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::130159455024:role/intl-reg-data-science-role-profile-admin",
+  "executionRoleArn": "arn:aws:iam::130159455024:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
