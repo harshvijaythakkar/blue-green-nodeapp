@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::130159455024:role/ecsTaskExecutionRole",
+  "executionRoleArn": "<Your Task Role ARN>",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -63,7 +63,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:us-east-1:130159455024:task-definition/blue-green-nodeapp:2",
+  "taskDefinitionArn": "<Your Task ARN>",
   "family": "blue-green-nodeapp",
   "requiresAttributes": [
     {
